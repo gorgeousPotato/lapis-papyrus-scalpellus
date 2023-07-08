@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  align-items: center;
+  background: #393e46;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  line-height: 1.3;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  color: #00adb5;
+}
+h2 {
+  color: #eeeeee;
+}
+p {
+  display: block;
+  font-size: 2rem;
+  color: #84a7a1;
+  width: 50%;
+  margin: 50px auto;
+}
+.choice {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 30px;
+  border-radius: 100px;
+  width: 200px;
+  background-color: #eeeeee;
+  color: #222831;
+  border: none;
+}
