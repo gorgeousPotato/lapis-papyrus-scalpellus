@@ -2,6 +2,7 @@ body {
   height: 100vh;
   align-items: center;
   background: #393e46;
+  padding: 70px 0;
 }
 h1 {
   font-family: sans-serif;
@@ -18,7 +19,7 @@ h2 {
 p {
   display: block;
   font-size: 2rem;
-  color: #84a7a1;
+  color: #00adb5;
   width: 50%;
   margin: 50px auto;
 }
@@ -36,4 +37,16 @@ button {
   background-color: #eeeeee;
   color: #222831;
   border: none;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 20px auto;
+  }
 }

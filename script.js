@@ -1,20 +1,5 @@
 // 'use strict';
 
-// const Person = function (firstName, birthYear) {
-//   this.firstName = firstName;
-//   this.birthYear = birthYear;
-// };
-
-// const lana = new Person('Lana', '1989');
-// console.log(lana);
-// console.log(lana instanceof Person);
-
-// Person.prototype.calcAge = function () {
-//   console.log(2037 - this.birthYear);
-// };
-
-// lana.calcAge();
-
 const gameOptions = ['Lapis', 'Papyrus', 'Scalpellus'];
 const player = {
   currentChoice: null,
@@ -60,7 +45,7 @@ buttons.addEventListener('click', function (e) {
     }
     result = `${playerWin ? 'You win!' : 'Computer wins!'} You chose ${
       player.currentChoice
-    }, and it chose ${computer.currentChoice}`;
+    }, and computer chose ${computer.currentChoice}`;
   }
   const body = document.querySelector('body');
   const p = document.createElement('p');
